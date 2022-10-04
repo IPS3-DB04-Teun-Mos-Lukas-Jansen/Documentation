@@ -1,7 +1,16 @@
 # Welcome to the documentation Repository for our project
 
+In the wiki of this repository you can find all documentation we have made about our Dashboard project.
+
 [Click here to find the Wiki](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Documentation/wiki)
 
-Repositories:
+## Table of Contents
+- [Dashboard Idea](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Documentation/wiki/Dashboard-Idea)
+- [Dashboard Architecture](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Documentation/wiki/C4-Model-(Architecture))
+- [User Stories](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Documentation/wiki/Userstories) 
+  - [User Stories - Progress Board](https://github.com/orgs/IPS3-DB04-Teun-Mos-Lukas-Jansen/projects/2/views/1)
+
+
+## Repositories:
 - [Front End](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Dashboard-Front-End)
 - [User-Preferences API](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/User-Preferences-API)
