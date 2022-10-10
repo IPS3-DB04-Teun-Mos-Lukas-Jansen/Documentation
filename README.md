@@ -11,8 +11,8 @@ In the wiki of this repository you can find all documentation we have made about
 - [User Stories](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Documentation/wiki/Userstories) 
   - [User Stories - Progress Board](https://github.com/orgs/IPS3-DB04-Teun-Mos-Lukas-Jansen/projects/2/views/1)
 - [Research Documents](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Documentation/wiki/Research-Documents)
-
-
-## Repositories:
-- [Front End](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Dashboard-Front-End)
-- [User-Preferences API](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/User-Preferences-API)
+- [Repositories](https://github.com/orgs/IPS3-DB04-Teun-Mos-Lukas-Jansen/repositories)
+  - [Front End](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Dashboard-Front-End)
+    - [Documentation](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Documentation/wiki/Documentation-Front-End)
+  - [User-Preferences API](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/User-Preferences-API)
+    - [Documentation](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Documentation/wiki/Documentation-User-Preferences-API)
