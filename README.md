@@ -7,6 +7,7 @@ In the wiki of this repository you can find all documentation we have made about
 ## Table of Contents
 - [Dashboard Idea](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Documentation/wiki/Dashboard-Idea)
 - [Dashboard Architecture](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Documentation/wiki/C4-Model-(Architecture))
+- [Sprint Planning & Retrospective](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Documentation/wiki/Sprintplanning-documentation)
 - [User Stories](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Documentation/wiki/Userstories) 
   - [User Stories - Progress Board](https://github.com/orgs/IPS3-DB04-Teun-Mos-Lukas-Jansen/projects/2/views/1)
 
