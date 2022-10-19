@@ -1,8 +1,8 @@
-# Welcome to the documentation Repository for our project
+# MonkoDash Documentation
+Welcome to the MonkoDash documentation repository.
+All documentation can be found [here](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Documentation/wiki).
 
-In the wiki of this repository you can find all documentation we have made about our Dashboard project.
-
-[Click here to find the Wiki](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Documentation/wiki)
+Below you can find a table of contents of all documentation.
 
 ## Table of Contents
 - [Dashboard Idea](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Documentation/wiki/Dashboard-Idea)
