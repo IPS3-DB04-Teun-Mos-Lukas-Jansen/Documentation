@@ -1,79 +1,24 @@
-# Documentation-User-Preferences-API
+# Documentation Front-end
 
-## Table of contents
-- [Responsibilities](#responsibilities)
-- [MongoDB](#mongodb)
+## Table of Contents
 
-## Responsibilities
-The User-Preferences-API is responsible for:
-- saving/retrieving the layout of the dashboard to and from the database
-- saving/retrieving themes/color-schemes to and from the database
-- saving/retrieving Dashboard URL shortcuts to and from the database
 
-## saving/retrieving Dashboard URL shortcuts and the Layout to and from the database
+## Designs
+### Normal mode
+<img src="https://user-images.githubusercontent.com/93530655/195041001-5109b124-abe7-4b92-99b3-9043e55bbd7f.svg" height=500/>
+<img src="https://user-images.githubusercontent.com/93530655/195040393-b8b4842b-3197-4208-85d1-9615f04e6513.svg" height=500/>
 
-Since we are using MongoDB as database, we needed to structure the URL data as a JSON.
-Our first ideas looked like this:
-```json
-{
-    "userid": "1234",
-    "urls": [
-        {
-            "url": "https://kanikeenkortebroekaan.nl/",
-            "urlid" : "1234"
-        },
-        {
-            "url": "https://kanikeenkortebroekaan.nl/",
-            "urlid" : "2345"
-        }
-    ]
-}
-```
-We successfully managed to use this format in our API, and retrieve the data in the front-end.
-However, when we started thinking about how we were going to save the layout, we came to the conclusion that this approach would not really work together with a layout.
+This would be the normal view when a user looks at his dashboard. 
+As you can see, there are columns, with cards in them. These cards can be a URL shortcut, or any integration that may be added later on.
+The width of each column is always the same, the height can differ from card to card. If your screen is out of space for new columns, you can add new columns on the next page.
 
-So to combine the URLs with the Layout, we came to a new JSON structure:
-```json
-{
-    "userid": "e312eb90-88e3-4d3e-83be-9a59f3ec9c36",
-    "columns":
-    [
-        {
-            "cards":
-            [
-                {
-                    "cardId":"i312eb90-88e3-4d3e-83be-9a59f3ec9c36",
-                    "cardType":"URL"
-                },
-                {
-                    "cardId": "a312eb90-88e3-4d3e-83be-9a59f3ec9c36",
-                    "cardType":"Spotify-Statistics"
-                }
-            ]
-        }
-    ]
-}
-```
-Then in the front-end whenever a card is from cardType URL, the front-end can make another request to a new collection in the database where the URLs are stored like this:
-```json
-{
-    "cardId":"id van een mandje/card",
-    "urls": 
-    [
-        {
-            "urlId": 123456,
-            "url":"https://www.netflix.com/"
-        },
-        {
-            "urlId": 123457,
-            "url":"https://minecraft.net/"
-        },
-        {
-            "urlId": 123457,
-            "url":"https://minecraft.net/"
-        }
-    ]
-}
-```
+In the header top left, there is a hamburger menum, when clicked on, a sidebar will appear with links to Home, Integrations, and Theme.
+In the header right top, there is an image of your user profile. Left from there we have a logout button, and a button for the Edit Mode.
 
+
+### Edit mode
+<img src="https://user-images.githubusercontent.com/93530655/195041001-5109b124-abe7-4b92-99b3-9043e55bbd7f.svg" height=500/>
+<img src="https://user-images.githubusercontent.com/93530655/195040483-567c3d69-148d-486c-97b9-580e050b9c36.svg" height=500/>
+
+In Edit mode you see a few things you can't see in the Normal View. First of all, you can visibly see the columns, which makes it easier to add new cards. In the columns there are now buttons that show, to add new cards to the dashboard. There is now also the option to create a new page, if there is no space for new columns anymore.
 
