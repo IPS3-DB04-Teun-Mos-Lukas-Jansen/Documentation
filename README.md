@@ -16,5 +16,3 @@ Below you can find a table of contents of all documentation.
     - [Documentation](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Documentation/wiki/Documentation-Front-End)
   - [User-Preferences API](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/User-Preferences-API)
     - [Documentation](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Documentation/wiki/Documentation-User-Preferences-API)
-
-test
