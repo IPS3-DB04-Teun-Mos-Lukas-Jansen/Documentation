@@ -31,6 +31,7 @@ We had some struggles in the beginning of making the Url shortcuts for the dashb
 - Unit Testing on the User-Preferences API
 - Integrate automatic unit testing in the CI/CD
 - Add some security to the User-Preferences API
+- Add Side-Bar to Front-End
 
 ## Problems/Questions
 - How can we best add security to the User-Preferences API?
