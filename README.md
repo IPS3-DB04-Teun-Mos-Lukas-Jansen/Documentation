@@ -1,6 +1,5 @@
 # MonkoDash Documentation
 Welcome to the MonkoDash documentation repository.
-All documentation can be found [here](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Documentation/wiki).
 
 Below you can find a table of contents of all documentation.
 
