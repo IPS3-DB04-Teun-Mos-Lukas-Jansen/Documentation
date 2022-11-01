@@ -3,6 +3,7 @@
 ## Table of contents
 - [Responsibilities](#responsibilities)
 - [MongoDB](#mongodb)
+- [User-Preferences-API](#user-preferences-api)
 
 ## Responsibilities
 The User-Preferences-API is responsible for:
@@ -10,7 +11,13 @@ The User-Preferences-API is responsible for:
 - saving/retrieving themes/color-schemes to and from the database
 - saving/retrieving Dashboard URL shortcuts to and from the database
 
-## saving/retrieving Dashboard URL shortcuts and the Layout to and from the database
+## MongoDB
+> MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License (SSPL) which is deemed non-free by several distributions. [(Wikipedia MongoDB)](https://en.wikipedia.org/wiki/MongoDB)
+
+We wanted to use a document-based database for the User-Preferences API. MongoDB is widely used, and would be a easier for us to learn since there is a lot of information about it on the internet. 
+
+
+## User-Preferences-API
 
 Since we are using MongoDB as database, we needed to structure the URL data as a JSON.
 Our first ideas looked like this:
@@ -75,5 +82,3 @@ Then in the front-end whenever a card is from cardType URL, the front-end can ma
     ]
 }
 ```
-
-
