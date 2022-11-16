@@ -27,7 +27,7 @@ In the header right top, there is an image of your user profile. Left from there
 In Edit mode you see a few things you can't see in the Normal View. First of all, you can visibly see the columns, which makes it easier to add new cards. In the columns there are now buttons that show, to add new cards to the dashboard. There is now also the option to create a new page, if there is no space for new columns anymore.
 
 ### Integrations
-![Desktop - Integrations View333](https://user-images.githubusercontent.com/93530655/202193037-89806dfe-11e4-451a-ac28-8a1eaf38edae.svg)
+<img src="https://user-images.githubusercontent.com/93530655/202193037-89806dfe-11e4-451a-ac28-8a1eaf38edae.svg" height=500/>
 
 On the integrations page you can find all your active integrations.
 You can add new integrations by clicking on the right bottom button.
