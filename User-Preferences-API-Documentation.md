@@ -4,6 +4,8 @@
 - [Responsibilities](#responsibilities)
 - [MongoDB](#mongodb)
 - [User-Preferences-API](#user-preferences-api)
+  - [Authentication](#authentication)
+  - [Unit Testing](#unit-testing)
 
 ## Responsibilities
 The User-Preferences-API is responsible for:
@@ -81,4 +83,59 @@ Then in the front-end whenever a card is from cardType URL, the front-end can ma
         }
     ]
 }
+```
+### Authentication
+#### How do we authenticate users in the API?
+Authentication is already done in the front-end using OAuth2.0 with Google Login. (More about this [here](https://docs.google.com/document/d/1FcSPYfOpofL5F_100IwEOF1PCGIBsGaKJo6o_Hl-EMo/edit#heading=h.n8jgu3kfz61x))
+Because we have already authenticated the user on the front end, we can verify our users in the API with the 'id token' they send when making requests to the API.
+
+Steps to verify:
+
+Check if token is already known to API (API saves verified tokens in memory)
+- If the API doesn't recognize the token or it's expired, it will verify it with google, 
+  - when successful the token is added to the known tokens, and user id is returned.
+  - if not successful it will raise an 401 httpException
+- If the API recognizes the token it will return the user id.
+
+These are the functions responsible for the verification. (code may change)
+``` python
+def is_token_verified(token):
+    remove_expired_tokens()
+    for verified_token in verified_tokens:
+        if verified_token.id_token == token:
+            return verified_token
+    return None
+```
+``` python
+def verify_token(token): 
+    
+    token_obj = is_token_verified(token)
+    
+    if token_obj is None:
+        try:
+            idinfo = id_token.verify_oauth2_token(token, requests.Request(), CLIENT_ID)
+            userid = idinfo['sub']
+            token_obj = verified_token(id_token=token, verified_date_time=datetime.now(), user_id=userid)
+            verified_tokens.append(token_obj)
+            return userid
+        except ValueError:
+            raise HTTPException(status_code=401, detail="Invalid token")
+    else:
+        return token_obj.user_id
+```
+
+### Unit Testing
+To create unit tests on the API we use [Pytest](https://docs.pytest.org/).
+
+To mock our database in the tests we use [mongomock](https://github.com/mongomock/mongomock).
+Here is an example on how we mock the database in our tests:
+``` python
+collection_mock = mongomock.MongoClient().mocklayout_db.mocklayout_collection
+
+def mock_init(mock_user_id):
+    layout.layoutdb = collection_mock
+
+    def verify_token_mock(token:str):
+        return mock_user_id
+    layout.verify_token = verify_token_mock
 ```
