@@ -1,9 +1,13 @@
 # Documentation Front-end
 
 ## Table of Contents
+- [Designs](#designs)
+  - [Normal mode](#normal-mode)
+  - [Edit mode](#edit-mode)
+- [Authentication](#authentication)
 
 
-## Designs!
+## Designs
 
 ### Normal mode
 <img src="https://user-images.githubusercontent.com/93530655/196730526-387d1f2e-8ca8-49cb-9091-4deafffd67a9.svg" height=500/> <img src="https://user-images.githubusercontent.com/93530655/196730535-f654bee4-4a6f-4080-81db-59ec01bd915d.svg" height=500/>
@@ -21,3 +25,6 @@ In the header right top, there is an image of your user profile. Left from there
 
 In Edit mode you see a few things you can't see in the Normal View. First of all, you can visibly see the columns, which makes it easier to add new cards. In the columns there are now buttons that show, to add new cards to the dashboard. There is now also the option to create a new page, if there is no space for new columns anymore.
 
+## Authentication
+To authenticate the users in the front-end we make use of OAuth2.0 with Google Login.
+You can read more about how we have implemented this into our project, in our [research document](https://docs.google.com/document/d/1FcSPYfOpofL5F_100IwEOF1PCGIBsGaKJo6o_Hl-EMo/edit#heading=h.n8jgu3kfz61x).
