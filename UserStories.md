@@ -8,8 +8,4 @@ These are used to determine what should be implemented into our application.
 - **Wants these different services centralized in an easy overview. (Thus a dashboard)**
 
 ## Userstories
-[Click here](https://github.com/orgs/IPS3-DB04-Teun-Mos-Lukas-Jansen/projects/2/views/2) to find a view of all current userstories, prioritised by:
-- Must have
-- Should have
-- Could have
-- Wont have
+[Click here](https://github.com/orgs/IPS3-DB04-Teun-Mos-Lukas-Jansen/projects/2/views/2) to find a view of all current userstories.
