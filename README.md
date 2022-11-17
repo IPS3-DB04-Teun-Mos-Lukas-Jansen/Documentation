@@ -6,6 +6,7 @@ Below you can find a table of contents of all documentation.
 ## Repositories
 - [Front End](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Dashboard-Front-End)
 - [User-Preferences API](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/User-Preferences-API)
+- [Integrations-API](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Documentation/blob/main/Integrations-API-Documentation.md)
 
 ## Project Progress
 - [User Stories](https://github.com/orgs/IPS3-DB04-Teun-Mos-Lukas-Jansen/projects/2)
