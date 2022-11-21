@@ -33,7 +33,16 @@ We had some struggles in the beginning of making the Url shortcuts for the dashb
 - Add some security to the User-Preferences API
 - Add Side-Bar to Front-End
 
-## Problems/Questions
+### Problems/Questions
 - How can we best add security to the User-Preferences API?
 - How do we unit test the User-Preferences API without touching the database?
 - What kind of other tests should we add to our project? Why and how?
+
+### Retrospective
+The beginning of this sprint went a bit rough as we didn't have the right priorities. We went straight to building the Integrations-API instead of fixing problems that already existed. We solved this problem by first looking back at the problems we had (authentication, code smells, better issue overview), after solving these problems, we still had some time to start working on the Integrations-API.
+
+## Sprint 4 (21-11-2022 - ?)
+### Goals
+- Continiue working on the Integrations-API
+- Taking more time to complete the userstories, so that we don't create more issues for us in the future.
+- Create documentation Integration-API
