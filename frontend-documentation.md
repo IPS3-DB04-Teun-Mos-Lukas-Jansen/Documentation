@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Framework](#framework)
+- [Project Structure](#project-structure)
 - [Designs](#designs)
   - [Normal mode](#normal-mode)
   - [Edit mode](#edit-mode)
@@ -15,6 +16,18 @@ Some of the reasons we chose React were:
 - We wanted to learn something new, and we both didn't have any experience with React.
 
 You can find more information about React by [clicking here](https://reactjs.org/).
+
+
+## Project Structure
+![image](https://user-images.githubusercontent.com/93530655/206656141-77938234-20a5-4959-b9b1-caaac548cf88.png)
+
+This is the structure we made for our project.
+React is very component based, this means you can reuse certain elements of your application everywhere.
+That's why we have a folder for all the components in our application.
+We also have a folder for all pages.
+
+In the services folder we put all code that communicates with our back-ends.
+And most of the other of the files are automatically generated when you create a React app.
 
 ## Designs
 We have made our front-end designs using Figma. [Click here to view the designs](https://www.figma.com/file/dKqfrzFpQNjcj0c47V2o4q/Untitled?node-id=0%3A1&t=0Y7LbbkN8pAeVCSY-1).
