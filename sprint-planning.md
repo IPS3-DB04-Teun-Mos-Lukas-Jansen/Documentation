@@ -41,8 +41,12 @@ We had some struggles in the beginning of making the Url shortcuts for the dashb
 ### Retrospective
 The beginning of this sprint went a bit rough as we didn't have the right priorities. We went straight to building the Integrations-API instead of fixing problems that already existed. We solved this problem by first looking back at the problems we had (authentication, code smells, better issue overview), after solving these problems, we still had some time to start working on the Integrations-API.
 
-## Sprint 4 (21-11-2022 - ?)
+## Sprint 4 (21-11-2022 - 9-12-2022)
 ### Goals
 - Continiue working on the Integrations-API
 - Taking more time to complete the userstories, so that we don't create more issues for us in the future.
 - Create documentation Integration-API
+
+### Retrospective
+We reached our goals for this sprint, we put a lot of effort into finishing [this userstory](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/.github/issues/3).
+It was a big userstory, and we also made some integration ann unit tests.
