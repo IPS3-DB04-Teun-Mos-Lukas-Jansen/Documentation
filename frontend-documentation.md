@@ -1,11 +1,20 @@
 # Documentation Front-end
 
 ## Table of Contents
+- [Framework](#framework)
 - [Designs](#designs)
   - [Normal mode](#normal-mode)
   - [Edit mode](#edit-mode)
 - [Authentication](#authentication)
 
+
+## Framework
+We decided to use ReactJS for out Front-end framework.
+Some of the reasons we chose React were:
+- React is one of the biggest Javascript frameworks with a large community.
+- We wanted to learn something new, and we both didn't have any experience with React.
+
+You can find more information about React by [clicking here](https://reactjs.org/).
 
 ## Designs
 We have made our front-end designs using Figma. [Click here to view the designs](https://www.figma.com/file/dKqfrzFpQNjcj0c47V2o4q/Untitled?node-id=0%3A1&t=0Y7LbbkN8pAeVCSY-1).
