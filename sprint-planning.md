@@ -54,4 +54,4 @@ It was a big userstory, and we made integration tests and unit tests where appli
 ## Sprint 5 (12-12-2022 - ?)
 ### Goals
 - Complete research about deployment.
-- Add userstory #28
+- Add new [userstory](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/Integration-API/issues/28)
