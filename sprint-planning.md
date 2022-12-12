@@ -50,3 +50,8 @@ The beginning of this sprint went a bit rough as we didn't have the right priori
 ### Retrospective
 We reached our goals for this sprint, we put a lot of effort into finishing [this userstory](https://github.com/IPS3-DB04-Teun-Mos-Lukas-Jansen/.github/issues/3).
 It was a big userstory, and we made integration tests and unit tests where applicable to test the acceptance criteria of the userstory.
+
+## Sprint 5 (12-12-2022 - ?)
+### Goals
+- Complete research about deployment.
+- ...
