@@ -54,4 +54,4 @@ It was a big userstory, and we made integration tests and unit tests where appli
 ## Sprint 5 (12-12-2022 - ?)
 ### Goals
 - Complete research about deployment.
-- ...
+- Add userstory #28
